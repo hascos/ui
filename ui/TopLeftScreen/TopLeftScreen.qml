@@ -3,38 +3,62 @@ import QtQuick 2.7
 Rectangle {
     id: topLeftScreen
 
-    anchors.fill: parent
+    anchors {
+        left: parent.left
+        right: topRightScreen.left
+        bottom: parent.bottom
+        top: parent.top
+    }
+
     color: "#020204"
 
-    Text {
+    Rectangle {
         anchors {
             left: parent.left
-            verticalCenter: parent.verticalCenter
-            leftMargin: 20
+            top: parent.top
+            margins: 20
+            leftMargin: 40
         }
 
-        font.pixelSize: 12
-        font.family: "Roboto"
-        font.weight: Font.Bold
-        color: "#ffffff"
-        text: "mOS"
+        height: 25
+        width: parent.width
+        color: "#020204"
+
+        Text {
+            anchors {
+                left: parent.left
+                verticalCenter: parent.verticalCenter
+            }
+
+            font.pixelSize: 12
+            font.family: "Roboto"
+            font.weight: Font.Bold
+            color: "#ffffff"
+
+            text: "mOS"
+        }
+
     }
 
     Rectangle {
         anchors {
             left: parent.left
             verticalCenter: parent.verticalCenter
-            leftMargin: 40
+            margins: 40
         }
 
         Text {
             id: titleText
-            anchors.left: parent.left
+
+            anchors {
+                left: parent.left
+            }
 
             font.pixelSize: 24
             font.family: "Roboto"
             font.weight: Font.Medium
             color: "#ffffff"
+
             text: "Memory Operations"
         }
 
@@ -49,7 +73,8 @@ Rectangle {
             font.pixelSize: 14
             font.family: "Roboto"
             color: "#e3e3e3"
-            text: "New Show | A super hero villain fights for peace"
+
+            text: "New Show | A super hero villan fights for peace"
         }
 
         Text {
@@ -63,7 +88,11 @@ Rectangle {
             font.family: "Roboto"
             font.weight: Font.Bold
             color: "#ffffff"
+
             text: "Operational services"
         }
+
+
     }
+
 }

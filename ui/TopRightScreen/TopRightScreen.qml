@@ -32,7 +32,6 @@ Rectangle {
             font.family: "Roboto"
             font.weight: Font.Bold
             color: "#ffffff"
-            visible: true
 
             text: apiHandler.currentTime
         }
