@@ -21,6 +21,10 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
+# Copy the font files to the build directory during the build process
+QMAKE_EXTRA_TARGETS += font_files
+PRE_TARGETDEPS += $$font_files.path
+
 DISTFILES += \
     ui/components/BottomBar/bottomBar.qml
 

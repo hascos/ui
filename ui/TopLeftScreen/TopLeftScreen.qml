@@ -3,64 +3,38 @@ import QtQuick 2.7
 Rectangle {
     id: topLeftScreen
 
-    anchors {
-        left: parent.left
-        right: topRightScreen.left
-        bottom: parent.bottom
-        top: parent.top
-    }
-
+    anchors.fill: parent
     color: "#020204"
 
-    Rectangle {
+    Text {
         anchors {
             left: parent.left
-            top: parent.top
-            margins: 20
-            leftMargin: 40
+            verticalCenter: parent.verticalCenter
+            leftMargin: 20
         }
 
-        height: 25
-        width: parent.width
-        color: "#020204"
-
-        Text {
-            anchors {
-                left: parent.left
-                verticalCenter: parent.verticalCenter
-            }
-
-            font.pixelSize: 12
-            font.family: "Roboto"
-            font.weight: Font.Bold
-            color: "#ffffff"
-            visible: true
-
-            text: "mOS"
-        }
-
+        font.pixelSize: 12
+        font.family: "Roboto"
+        font.weight: Font.Bold
+        color: "#ffffff"
+        text: "mOS"
     }
 
     Rectangle {
         anchors {
             left: parent.left
             verticalCenter: parent.verticalCenter
-            margins: 40
+            leftMargin: 40
         }
 
         Text {
             id: titleText
-
-            anchors {
-                left: parent.left
-            }
+            anchors.left: parent.left
 
             font.pixelSize: 24
             font.family: "Roboto"
             font.weight: Font.Medium
             color: "#ffffff"
-            visible: true
-
             text: "Memory Operations"
         }
 
@@ -75,9 +49,7 @@ Rectangle {
             font.pixelSize: 14
             font.family: "Roboto"
             color: "#e3e3e3"
-            visible: true
-
-            text: "New Show | A super hero villan fights for peace"
+            text: "New Show | A super hero villain fights for peace"
         }
 
         Text {
@@ -91,12 +63,7 @@ Rectangle {
             font.family: "Roboto"
             font.weight: Font.Bold
             color: "#ffffff"
-            visible: true
-
             text: "Operational services"
         }
-
-
     }
-
 }
