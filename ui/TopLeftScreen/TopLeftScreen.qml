@@ -34,8 +34,9 @@ Rectangle {
             font.family: "Roboto"
             font.weight: Font.Bold
             color: "#ffffff"
+            visible: true
 
-            text: "Api Service"
+            text: "mOS"
         }
 
     }
@@ -58,6 +59,7 @@ Rectangle {
             font.family: "Roboto"
             font.weight: Font.Medium
             color: "#ffffff"
+            visible: true
 
             text: "Memory Operations"
         }
@@ -73,6 +75,7 @@ Rectangle {
             font.pixelSize: 14
             font.family: "Roboto"
             color: "#e3e3e3"
+            visible: true
 
             text: "New Show | A super hero villan fights for peace"
         }
@@ -88,6 +91,7 @@ Rectangle {
             font.family: "Roboto"
             font.weight: Font.Bold
             color: "#ffffff"
+            visible: true
 
             text: "Operational services"
         }
