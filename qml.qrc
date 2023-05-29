@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ui/Keyboard/Keyboard.qml</file>
+        <file>ui/assets/gear.png</file>
+        <file>ui/assets/lock.png</file>
+        <file>ui/assets/unlock.png</file>
+        <file>ui/assets/wifi-connected.png</file>
+        <file>ui/assets/wifi-disconnected.png</file>
+        <file>ui/BottomScreen/BottomScreen.qml</file>
+        <file>ui/TopScreen/TopScreen.qml</file>
+        <file>ui/TopLeftScreen/TopLeftScreen.qml</file>
+        <file>ui/TopRightScreen/TopRightScreen.qml</file>
+    </qresource>
+</RCC>
