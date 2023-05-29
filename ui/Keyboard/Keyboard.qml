@@ -4,9 +4,9 @@ import QtQuick.VirtualKeyboard 2.7
 InputPanel {
     id: inputPanel
     z: 99
-    x: window.width * .20
+    x: 0
     y: window.height
-    width: window.width * .55
+    width: window.width
 
     states: State {
         name: "visible"

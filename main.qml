@@ -12,7 +12,7 @@ Window {
     height: 480
     visible: true
     title: qsTr("Memory Operations")
-    //flags: Qt.FramelessWindowHint
+    flags: Qt.FramelessWindowHint
 
     TopScreen {
         id: topScreen
