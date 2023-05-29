@@ -28,7 +28,7 @@ Rectangle {
                 verticalCenter: parent.verticalCenter
             }
 
-            font.pixelSize: 12
+            font.pixelSize: 14
             font.family: "Roboto"
             font.weight: Font.Bold
             color: "#ffffff"
