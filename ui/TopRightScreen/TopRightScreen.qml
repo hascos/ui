@@ -28,11 +28,12 @@ Rectangle {
                 verticalCenter: parent.verticalCenter
             }
 
-            font.pixelSize: 13
+            font.pixelSize: 12
+            font.family: "Roboto"
+            font.weight: Font.Bold
             color: "#ffffff"
 
             text: apiHandler.currentTime
-            font.bold: true
         }
 
     }

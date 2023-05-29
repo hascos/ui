@@ -11,5 +11,24 @@
         <file>ui/TopScreen/TopScreen.qml</file>
         <file>ui/TopLeftScreen/TopLeftScreen.qml</file>
         <file>ui/TopRightScreen/TopRightScreen.qml</file>
+        <file>ui/fonts/LICENSE</file>
+        <file>ui/fonts/LICENSE.txt</file>
+        <file>ui/fonts/NotoSansArabic-Regular.ttf</file>
+        <file>ui/fonts/NotoSansJP-Regular.otf</file>
+        <file>ui/fonts/NotoSansThai-Regular.ttf</file>
+        <file>ui/fonts/OFL.txt</file>
+        <file>ui/fonts/qt_attribution.json</file>
+        <file>ui/fonts/Roboto-Black.ttf</file>
+        <file>ui/fonts/Roboto-BlackItalic.ttf</file>
+        <file>ui/fonts/Roboto-Bold.ttf</file>
+        <file>ui/fonts/Roboto-BoldItalic.ttf</file>
+        <file>ui/fonts/Roboto-Italic.ttf</file>
+        <file>ui/fonts/Roboto-Light.ttf</file>
+        <file>ui/fonts/Roboto-LightItalic.ttf</file>
+        <file>ui/fonts/Roboto-Medium.ttf</file>
+        <file>ui/fonts/Roboto-MediumItalic.ttf</file>
+        <file>ui/fonts/Roboto-Regular.ttf</file>
+        <file>ui/fonts/Roboto-Thin.ttf</file>
+        <file>ui/fonts/Roboto-ThinItalic.ttf</file>
     </qresource>
 </RCC>

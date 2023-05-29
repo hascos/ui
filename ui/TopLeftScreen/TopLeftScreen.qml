@@ -30,7 +30,9 @@ Rectangle {
                 verticalCenter: parent.verticalCenter
             }
 
-            font.pixelSize: 14
+            font.pixelSize: 12
+            font.family: "Roboto"
+            font.weight: Font.Bold
             color: "#ffffff"
 
             text: "Api Service"
@@ -53,6 +55,8 @@ Rectangle {
             }
 
             font.pixelSize: 24
+            font.family: "Roboto"
+            font.weight: Font.Medium
             color: "#ffffff"
 
             text: "Memory Operations"
@@ -66,10 +70,11 @@ Rectangle {
                 left: parent.left
             }
 
-            font.pixelSize: 15
+            font.pixelSize: 14
+            font.family: "Roboto"
             color: "#e3e3e3"
 
-            text: "New Show | A super hero villan fights for peace at any cost"
+            text: "New Show | A super hero villan fights for peace"
         }
 
         Text {
@@ -79,11 +84,12 @@ Rectangle {
                 left: parent.left
             }
 
-            font.pixelSize: 13
+            font.pixelSize: 12
+            font.family: "Roboto"
+            font.weight: Font.Bold
             color: "#ffffff"
 
             text: "Operational services"
-            font.bold: true
         }
 
 
