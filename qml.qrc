@@ -29,6 +29,5 @@
         <file>ui/fonts/Roboto-MediumItalic.ttf</file>
         <file>ui/fonts/Roboto-Regular.ttf</file>
         <file>ui/fonts/Roboto-Thin.ttf</file>
-        <file>ui/fonts/Roboto-ThinItalic.ttf</file>
     </qresource>
 </RCC>

@@ -8,11 +8,12 @@ Window {
     id: window
     //width: 1280
     //height: 720
-    width: 800
-    height: 480
+    //width: 800
+    //height: 480
     visible: true
     title: qsTr("Memory Operations")
     flags: Qt.FramelessWindowHint
+    visibility: Qt.WindowFullScreen // << the solution
 
     TopScreen {
         id: topScreen
