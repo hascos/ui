@@ -14,8 +14,8 @@ Window {
 
     title: qsTr("Memory Operations")
 
-    //visibility: Window.FullScreen
-    //flags: Qt.FramelessWindowHint
+    visibility: Window.FullScreen
+    flags: Qt.FramelessWindowHint
 
     // KeyPressHandler to handle F3 key press
     Item {
