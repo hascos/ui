@@ -15,10 +15,11 @@ Rectangle {
             right: parent.right
             top: parent.top
             margins: 20
+            rightMargin: 40
         }
 
         height: 25
-        width: 80
+        width: 60
         color: "#020204"
 
         Text {
@@ -33,6 +34,28 @@ Rectangle {
             color: "#ffffff"
 
             text: apiHandler.currentTime
+        }
+
+    }
+
+    Rectangle {
+        id: settings
+        anchors {
+            right: dateTimeHolder.left
+            top: parent.top
+            margins: 22
+            rightMargin: 10
+        }
+
+        height: 25
+        width: 25
+        color: "#020204"
+
+        Image {
+            id: gearIcon
+            height: 20
+            width: 20
+            source: "qrc:/ui/assets/gear.png"
         }
 
     }

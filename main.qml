@@ -8,17 +8,14 @@ Window {
     id: window
     //width: 1280
     //height: 720
-    //width: 800
-    //height: 480
+    width: 800
+    height: 480
     visible: true
 
-    width: Screen.desktopAvailableWidth
-    height: Screen.desktopAvailableHeight
-    visibility: Window.FullScreen
-
     title: qsTr("Memory Operations")
-    flags: Qt.FramelessWindowHint
-    //visibility: Qt.WindowFullScreen // << the solution
+
+    //visibility: Window.FullScreen
+    //flags: Qt.FramelessWindowHint
 
     // KeyPressHandler to handle F3 key press
     Item {

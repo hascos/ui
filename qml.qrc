@@ -11,5 +11,17 @@
         <file>ui/TopScreen/TopScreen.qml</file>
         <file>ui/TopLeftScreen/TopLeftScreen.qml</file>
         <file>ui/TopRightScreen/TopRightScreen.qml</file>
+        <file>ui/Card/Card.qml</file>
+        <file>ui/assets/inner-circle.png</file>
+        <file>ui/assets/card-back-topright.png</file>
+        <file>ui/assets/card-back-topleft.png</file>
+        <file>ui/assets/card-back-bottomright.png</file>
+        <file>ui/assets/card-back-bottomleft.png</file>
+        <file>ui/assets/separator-line.png</file>
+        <file>ui/CardRow/CardRow.qml</file>
+        <file>ui/assets/flash.png</file>
+        <file>ui/FlashCard/FlashCard.qml</file>
+        <file>ui/assets/binary-code.png</file>
+        <file>ui/MemoryClone/MemoryClone.qml</file>
     </qresource>
 </RCC>

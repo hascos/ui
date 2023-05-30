@@ -53,7 +53,7 @@ Rectangle {
                 left: parent.left
             }
 
-            font.pixelSize: 24
+            font.pixelSize: 25
             font.weight: Font.Medium
             color: "#ffffff"
 
@@ -68,7 +68,7 @@ Rectangle {
                 left: parent.left
             }
 
-            font.pixelSize: 14
+            font.pixelSize: 16
             color: "#ffffff"
 
             text: "New Show | A super hero villan fights for peace"
@@ -81,7 +81,7 @@ Rectangle {
                 left: parent.left
             }
 
-            font.pixelSize: 12
+            font.pixelSize: 13
             font.family: "Roboto"
             font.weight: Font.Bold
             color: "#ffffff"
