@@ -20,6 +20,16 @@ Window {
     flags: Qt.FramelessWindowHint
     //visibility: Qt.WindowFullScreen // << the solution
 
+    // KeyPressHandler to handle F3 key press
+    Item {
+        focus: true
+        Keys.onPressed: {
+            if (event.key === Qt.Key_F3) {
+                Qt.quit(); // Quit the application
+            }
+        }
+    }
+
     TopScreen {
         id: topScreen
     }
